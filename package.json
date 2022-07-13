@@ -1,0 +1,22 @@
+{
+  "name": "thp_dev_w2d4_binary-trees",
+  "version": "1.0.0",
+  "description": "Javascript training : code binary trees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ju777/THP_dev_w2d4_binary-trees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ju777/THP_dev_w2d4_binary-trees/issues"
+  },
+  "homepage": "https://github.com/Ju777/THP_dev_w2d4_binary-trees#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
