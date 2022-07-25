@@ -14,8 +14,8 @@ function initialize() {
     
     console.log(`\nGénération de données aléatoires ...`);
     enter();
-    // let arrayForTree = Array.from({length: size}, () => Math.floor(Math.random() * 100));
-    let arrayForTree = [1,2,3,4,5,6,7,8,9,10, 11];
+    let arrayForTree = Array.from({length: size}, () => Math.floor(Math.random() * 100));
+    // let arrayForTree = [1,2,3,4,5,6,7,8,9,10,11];
     let tmpSet = new Set(arrayForTree);
     arrayForTree = Array.from(tmpSet);
 
@@ -29,13 +29,13 @@ function initialize() {
     return arrayForTree;
 }
 
-let array = initialize()
+// let array = initialize()
+// let array = [0,1,2,3,4,5,6,7,8,9];
+let array = [62,29,34,19,22,30,13,3,21,78,57,2,28,99,54,9,70,81];
 console.log(array);
 
 let middle = array.length/2;
-let arrayLeft = array.slice(0,middle);
-console.log(arrayLeft);
-let arrayRight = array.slice(middle, array.length);
-console.log(arrayRight);
-// let s = new Set(["1","2","3"]);
-console.log(new Set(["1","2","3"]));
+let splicedVal = array.splice(middle, 1);
+console.log(splicedVal);
+console.log(splicedVal[0]);
+console.log(array);
